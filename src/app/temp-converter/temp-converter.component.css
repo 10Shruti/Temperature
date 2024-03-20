@@ -1,0 +1,20 @@
+.outer{
+    background-color: rgb(2, 180, 180);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50em;
+    height: 50em;
+}
+h2{
+    color:white;
+}
+.container {
+    display: flex;
+  }
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #f80707;
+    margin: 10px;
+  }
