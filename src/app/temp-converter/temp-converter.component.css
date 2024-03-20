@@ -1,20 +1,40 @@
+body{
+    margin: 0; /* Remove default margin */
+      height: 100vh; /* Set body height to full viewport height */
+      display: flex; /* Use flexbox layout */
+      justify-content: center; /* Horizontally center items */
+      align-items: center; /* Vertically center items */
+
+}
 .outer{
     background-color: rgb(2, 180, 180);
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50em;
-    height: 50em;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
 }
 h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
     color:white;
 }
+
 .container {
     display: flex;
+    background-color: white;
+    width:600px;
+    height:200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 100cm;
   }
-  .box {
-    width: 200px;
-    height: 200px;
-    background-color: #f80707;
-    margin: 10px;
-  }
+.container .box{
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-weight: 500;
+}
+
